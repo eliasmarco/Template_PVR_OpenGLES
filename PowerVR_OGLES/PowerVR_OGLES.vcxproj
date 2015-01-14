@@ -67,7 +67,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\lodepng.cpp" />
     <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\painter.cpp" />
+    <ClCompile Include="source\particlesystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\lodepng.h" />
+    <ClInclude Include="source\modeldata.h" />
+    <ClInclude Include="source\painter.hpp" />
+    <ClInclude Include="source\particlesystem.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
